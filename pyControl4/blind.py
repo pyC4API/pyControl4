@@ -6,7 +6,6 @@ from pyControl4 import C4Entity
 
 
 class C4Blind(C4Entity):
-
     async def getBatteryLevel(self):
         """Returns the battery of a blind. We currently don't know the range or meaning."""
         value = await self.director.getItemVariableValue(self.item_id, "Battery Level")
@@ -14,7 +13,8 @@ class C4Blind(C4Entity):
 
     async def getClosing(self):
         """Returns an indication of whether the blind is moving in the closed direction as a boolean
-        (True=closing, False=opening). If the blind is stopped, reports the direction it last moved."""
+        (True=closing, False=opening). If the blind is stopped, reports the direction it last moved.
+        """
         value = await self.director.getItemVariableValue(self.item_id, "Closing")
         return bool(value)
 
@@ -45,7 +45,8 @@ class C4Blind(C4Entity):
 
     async def getOpening(self):
         """Returns an indication of whether the blind is moving in the open direction as a boolean
-        (True=opening, False=closing). If the blind is stopped, reports the direction it last moved."""
+        (True=opening, False=closing). If the blind is stopped, reports the direction it last moved.
+        """
         value = await self.director.getItemVariableValue(self.item_id, "Opening")
         return bool(value)
 
