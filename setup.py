@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyC4API",  # Replace with your own username
-    version="1.0.0",
+    version="1.0.1",
     author="nalin29",
     author_email="github@nalinmahajan.com",
     description="Forked Python 3 asyncio package for interacting with Control4 systems and includes room support",
