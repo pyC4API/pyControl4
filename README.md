@@ -1,5 +1,10 @@
 # pyControl4
 
+# pyControl4
+[![PyPI version](https://badge.fury.io/py/pyC4API.svg)](https://badge.fury.io/py/pyC4API)[![Downloads](https://pepy.tech/badge/pyC4API)](https://pepy.tech/project/pyC4API)
+
+[![CI](https://github.com/pyC4API/pyControl4/workflows/CI/badge.svg)](https://github.com/pyC4API/pyControl4/actions?query=workflow%3ACI)[![pdoc](https://github.com/pyC4API/pyControl4/workflows/pdoc/badge.svg)](https://github.com/pyC4API/pyControl4/actions?query=workflow%3Apdoc)[![PyPI Release](https://github.com/pyC4API/pyControl4/workflows/PyPI%20Release/badge.svg)](https://github.com/pyC4API/pyControl4/actions?query=workflow%3A%22PyPI+Release%22)
+
 Note: This is a fork of the original pycontrol4 library. This version is a forked version that supports room manipulation
 
 An asynchronous library to interact with Control4 systems through their built-in REST API. This is known to work on controllers with OS 2.10.1.544795-res and OS 3.0+. 
